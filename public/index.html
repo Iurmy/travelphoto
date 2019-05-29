@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>旅拍通</title>
+  <script>
+    var html = document.documentElement, hWidth = html.getBoundingClientRect().width; html.style.fontSize = hWidth / 7.5 + "px"
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but travelphotography doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script>
+  wx.config({
+    debug: false,
+    appId: 'wx6002c5e004b3c75c',
+    timestamp: 1548730250,
+    nonceStr: 'HrkDvQ7FMaTzaeZ3',
+    signature: 'e2a30bde43db6723eeb87e23d4d8396e967ca523',
+    jsApiList: [
+      'checkJsApi',
+      'onMenuShareTimeline',
+      'onMenuShareAppMessage',
+      'onMenuShareQQ',
+      'onMenuShareWeibo',
+      'onMenuShareQZone',
+      'hideMenuItems',
+      'showMenuItems',
+      'hideAllNonBaseMenuItem',
+      'showAllNonBaseMenuItem',
+      'translateVoice',
+      'startRecord',
+      'stopRecord',
+      'onVoiceRecordEnd',
+      'playVoice',
+      'onVoicePlayEnd',
+      'pauseVoice',
+      'stopVoice',
+      'uploadVoice',
+      'downloadVoice',
+      'chooseImage',
+      'previewImage',
+      'uploadImage',
+      'downloadImage',
+      'getNetworkType',
+      'openLocation',
+      'getLocation',
+      'hideOptionMenu',
+      'showOptionMenu',
+      'closeWindow',
+      'scanQRCode',
+      'chooseWXPay',
+      'openProductSpecificView',
+      'addCard',
+      'chooseCard',
+      'openCard'
+    ]
+  });
+</script>
+
+</html>
